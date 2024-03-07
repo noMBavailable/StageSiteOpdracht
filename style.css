@@ -56,14 +56,24 @@ li a:hover:not(.active) {
 Navbar
 */
 
-
+.img_marc{
+  width: 260px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1rem;
+  text-align: center;
+}
 /* 
 INTRODUCTION
 */
 
 .cntr_rstrnt{
   display: grid;
-  background-image: url(images/achtergroundintro.jpg);
+  background-image: url(images/mathias-reding-P0YeIVOyvSI-unsplash.jpg);
   max-width: 100%;
   height:700px;
   background-size: cover;
@@ -72,7 +82,7 @@ INTRODUCTION
 .cntr_gbb{
   display: grid;
   grid-auto-flow: column;
-  background-color: rgba(94, 118, 90, 1);
+  background-color: rgb(48, 48, 48);
   height: 8rem;
   color: white;
   justify-content: end;
@@ -80,48 +90,10 @@ INTRODUCTION
   margin-top: 15rem;
 }
 
-.good{
-display: grid;
-justify-content: center;
-padding: 1.8rem 2.4rem;
-background-color: rgba(161, 159, 159, 1);
-border-radius: 163px;
-width: 170px;
-height: 83px;
-margin-left: 3rem;
-margin-right: 3rem;
-font-size: 3rem;
-align-content: center;
-}
 
-.better{
-display: grid;
-justify-content: center;
-padding: 1.8rem 2.4rem;
-background-color: rgba(134, 134, 134, 1);
-border-radius: 163px;
-width: 170px;
-height: 83px;
-font-size: 3rem;
-align-content: center;
-}
-
-.best{
-display: grid;
-justify-content: center;
-padding: 1.8rem 2.4rem;
-background-color: rgba(108, 108, 108, 1);
-border-radius: 163px;  
-width: 170px;
-height: 83px;
-margin-left: 3rem;
-margin-right: 3rem;
-font-size: 3rem;
-align-content: center;
-}
 
 .cntr_itln{
-  background-image: url(images/bg_grey.avif);
+  background-image: url(images/bryan-garces-IXUM4cJynP0-unsplash.jpg);
   background-size: cover;
   width: 550px;
   height: 700px;
