@@ -57,11 +57,11 @@ Navbar
 */
 
 .img_marc{
-  width: 260px;
-  height: 200px;
+  width: 500px;
+  height: 460px;
   margin-bottom: 10px;
   margin-left: 5px;
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-left: 3rem;
   padding-right: 3rem;
   font-size: 1rem;
@@ -85,70 +85,33 @@ INTRODUCTION
   /*background-color: rgb(48, 48, 48);*/
   height: 8rem;
   color: white;
-  justify-content: end;
+  justify-content: center;
   align-items: center;  
   margin-top: 15rem;
 }
 
 
 
-.cntr_itln{
-  background-image: url(images/bryan-garces-IXUM4cJynP0-unsplash.jpg);
-  background-size: cover;
-  width: 550px;
+.cntr_projects{
+  
+  display: grid;
+  grid-auto-flow: column;
+  width: auto;
   height: 700px;
-  position: absolute;
-  top:0;
+  justify-content:space-evenly;
+  
+  
   left: 10rem;
 }
 
-.rstrnt{
-  margin-top:6rem;
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-}
+.project{
+  max-width: 7.5rem;
+ 
 
-.itln{
-font-size: 3.8rem;
-text-align: center;
-color: rgba(46, 199, 21, 1);
-}
-
-.cntr_intrdn{
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 35fr 65fr;
-  height: 570px;
-}
-
-.cntr_txt{
-  display: grid;
-  background-color: white;
-  width: 500px;
-  padding: 4rem 4rem 0 4rem;
-  
   
 }
 
-.intrdn_intrdn{
-  font-size: 2rem;
-}
 
-.intrdn_itln{
-  font-size: 3rem;
-  color: rgba(46, 199, 21, 1);
-}
-
-.intr_txt{
-  font-size:1.125rem;
-}
-
-.bg-intrdn_wood{
-background-image: url(images/wood.jpg);
-background-size:cover;
-min-width: fit-content;
-}
 
 @media only screen and (max-width: 660px){
   .cntr_rstrnt{
