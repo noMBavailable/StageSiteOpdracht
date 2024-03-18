@@ -71,6 +71,16 @@ Navbar
 INTRODUCTION
 */
 
+.intro_site{
+  display: grid;
+  background-color: darkred;
+  max-width: fit-content;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 16rem;
+  margin-bottom: 4rem;
+}
+
 .cntr_rstrnt{
   display: grid;
   background-image: url(images/mathias-reding-P0YeIVOyvSI-unsplash.jpg);
@@ -93,21 +103,25 @@ INTRODUCTION
 .cntr_dialog{
   
   display: grid;
-  grid-auto-flow: column;
-  width: auto;
-  height: 700px;
-  justify-content:space-evenly;
+  grid-auto-flow: row;
+  width:fit-content;
+  padding: 1.2rem;
+  height: 150px;
+  justify-content:left;
+  margin-left: 22rem;
+  margin-bottom: 2rem;
+  background-color: darkred;
+  
   color: black;
-  
-  
+}
 
-  
-  
-  left: 10rem;
+.dialog_option:hover:not(.active){
+  color: white;
 }
 
 .dialog_option{
   text-decoration: none;
+  color:black;
 }
 
 
