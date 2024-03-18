@@ -106,9 +106,20 @@ INTRODUCTION
 
 .project{
   max-width: 7.5rem;
- 
+  
+  
+
 
   
+}
+
+.project:hover:not(.active) {
+  color: rgb(0, 0, 0);
+  background-color: rgb(164, 196, 21);
+  padding: .3rem;
+  /* add shadow behind so it looks like you pick it up*/
+  
+
 }
 
 
