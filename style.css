@@ -48,7 +48,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #30cdfc;
+  background-color: black;
 }
 
 
@@ -90,6 +90,25 @@ INTRODUCTION
   margin-top: 15rem;
 }
 
+.cntr_dialog{
+  
+  display: grid;
+  grid-auto-flow: column;
+  width: auto;
+  height: 700px;
+  justify-content:space-evenly;
+  color: black;
+  
+  
+
+  
+  
+  left: 10rem;
+}
+
+.dialog_option{
+  text-decoration: none;
+}
 
 
 .cntr_projects{
@@ -198,311 +217,11 @@ INTRODUCTION
       height: 570px;
     }
   }
-    
+
+/*
+
 /* 
 INTRODUCTION
 */
 
-      /* 
-      CONTACT FORM 
-      */
-      
-      textarea{resize: none;}
-
-      .bg_wood{
-        background-image: url("images/wood.jpg");
-        margin: auto;
-    }
-
-      .cntr_contact_form{
-        display: grid;
-        margin: 8.2rem auto;
-        width: 32rem;
-        height: 40rem;
-        background-color: white;
-        padding: 1rem 5rem;
-        border: 1px solid black;
-      }
-
-      .Contact-form_Header{
-        justify-self: center;
-        color: red;
-        font-size: 2rem;
-
-      }
-
-      
-
-      .answer{
-        width:22rem;
-        height: 2rem;
-        background-color: rgba(217, 217, 217, 1);
-        justify-self: center;
-        margin-top: 0.4rem;
-      }
-
-      .msg_hght{
-        height: 10rem;
-      }
-
-
-      .btn_frm{
-        display: grid;
-        color: white;
-        background-color: black;
-        width: 8rem;
-        height: 2.8rem;
-        justify-self: center;
-        justify-content: center;
-        align-content: center;
-      }
-
-
-      @media only screen and (max-width: 600px){
-        .cntr_contact_form{
-            display: grid;
-            margin: 6rem auto;
-            width: 20rem; /*62,5%*/
-            height: 25rem;
-            background-color: white;
-            padding: 0.625rem 3.125rem;
-            border: 0.625px solid black;
-          }
-        }
-
-        @media only screen and (max-width: 600px){
-          .Contact-form_Header{
-            font-size: 1.15rem;
-            }
-          }
-
-          @media only screen and (max-width: 600px){
-            .answer{
-              width:13.75rem;
-              height: 1.25rem;
-              background-color: rgba(217, 217, 217, 1);
-              justify-self: center;
-              margin-top: 0.25rem;
-            }
-          }
-        
-          @media only screen and (max-width: 600px){
-          .msg_hght{
-            height:6.25rem;
-            }
-          }
-
-        @media only screen and (max-width: 600px){
-          .btn_frm{
-          display: grid;
-          color: white;
-          background-color: black;
-          width: 5rem;
-          height: 1.875rem;
-          justify-self: center;
-          justify-content: center;
-          align-content: center;
-          font-size: 0.5rem;
-          }
-        }
-
-
-        @media only screen and (max-width: 600px){
-        .cntct-form_qstn{
-          font-size: 0.6rem;
-        }
-      }  
-       /* 
-      CONTACT FORM 
-      */
-
-      
-      /*
-      MENU
-      */
-
-
-      .ttl_crss{
-        margin: 3.3rem auto; 
-        font-size: 4rem;
-      }
-
-      .cntr_menu{
-        display: grid;
-        margin: 4rem auto; /*if you use rem here, remove the others so it's even*/
-        
-      }
-
-      .cntr_crss{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        gap: 4rem 3rem;
-        width: fit-content;
-        margin: 5rem auto;
-        
-      }
-
-      .cntr_prdct{
-        display: grid;
-        justify-items: center;
-        border: 2px solid rgba(224, 214, 214, 1);
-      }
-
-      .img_prdct{
-        width: 260px;
-        height: 200px;
-        background-image:url(images/prototypephoto.jpg);
-        padding-top: 4rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        font-size: 1rem;
-        text-align: center;
-      }
-      
-      .img_prdct:hover{
-        background-image: none;
-        font-style: italic;
-      }
-      
-
-      .nme_prdct{
-        margin-top:0.7rem;
-        font-weight:bold;
-        font-size: 1.3rem;
-      }
-
-      .cst_prdct{
-        margin-top:0.7rem;
-        margin-bottom:0.7rem;
-        font-style: italic;
-      }
-
-
-      @media only screen and (max-width: 1250px){
-        .cntr_crss{
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: auto;
-          gap: 5rem 3rem;
-          width: fit-content;
-        }
-      }
-
-      @media only screen and (max-width: 925px){
-        .cntr_crss{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: auto;
-          gap: 5rem 3rem;
-          width: fit-content;
-        }
-      }
-
-      @media only screen and (max-width: 625px){
-        .cntr_crss{
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-rows: auto;
-          gap: 5rem 3rem;
-          width: fit-content;
-        }
-      }
-
-      /*
-      MENU
-      */
-
-      /* 
-      EMPLOYEES
-      */
-
-      .ttl_mplys{
-        margin-top: 7rem;
-        text-align: center;
-        font-size: 5rem;
-      }
-
-
-
-      .cntr_mplys{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        width: fit-content;
-        margin: 5rem auto;
-      
-      }
-      
-      .cntr_mply{
-        display: grid;
-        margin: 2rem;
-        
-      }
-
-      .img_mply{
-        width: 175px;
-        height: 215px;
-        background-color: rgb(132, 129, 129);
-      }
-
-      .name_mply{
-        display: grid;
-        align-items: center;
-        justify-items: center;
-        margin-top: 0.45rem;
-        font-size: 1.05rem;
-
-      }
-
-      .wrk_mply{
-        display: grid;
-        align-items: center;
-        justify-items: center;
-        color: rgb(169, 169, 169);
-        font-size: 1rem;
-        margin-top: 0.15rem;
-      }
-
-      @media only screen and (max-width: 960px){
-        .cntr_mplys{
-          display: grid;
-          margin-top: 8rem;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: repeat(1fr);
-          max-width: max-content;
-          margin: 9rem auto;
-        }
-      }
-
-      @media only screen and (max-width: 720px){
-        .cntr_mplys{
-          display: grid;
-          margin-top: 8rem;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: repeat(1fr);
-          max-width: max-content;
-          margin: 9rem auto;
-        }
-      }
-
-      @media only screen and (max-width: 480px){
-        .cntr_mplys{
-          display: grid;
-          margin-top: 8rem;
-          grid-template-columns: 1fr;
-          grid-template-rows: repeat(1fr);
-          max-width: max-content;
-          margin: 9rem auto;
-          min-width: 16rem;
-        }
-      }
-
-      @media only screen and (max-width: 480px){
-        .ttl_mplys{
-          font-size: 4rem;
-        }
-      }
-      /* 
-      EMPLOYEES
-      */
+ 
