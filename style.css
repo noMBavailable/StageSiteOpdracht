@@ -81,7 +81,7 @@ INTRODUCTION
   margin-bottom: 4rem;
 }
 
-.cntr_rstrnt{
+.cntr_bg{
   display: grid;
   background-image: url(images/mathias-reding-P0YeIVOyvSI-unsplash.jpg);
   max-width: 100%;
@@ -130,7 +130,7 @@ INTRODUCTION
   display: grid;
   grid-auto-flow: column;
   width: auto;
-  height: 700px;
+  height: 400px;
   justify-content:space-evenly;
   
   
@@ -139,11 +139,6 @@ INTRODUCTION
 
 .project{
   max-width: 7.5rem;
-  
-  
-
-
-  
 }
 
 .project:hover:not(.active) {
@@ -155,7 +150,11 @@ INTRODUCTION
 
 }
 
-
+.explan_projects{
+  display: grid;
+  padding: 2rem;
+  margin-left:8rem;
+}
 
 @media only screen and (max-width: 660px){
   .cntr_rstrnt{
