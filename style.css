@@ -350,3 +350,15 @@ INTRODUCTION
       */
 
  
+
+      .cntr_genInfo{
+        background-color: white;
+        border: 1px solid black;
+        color: red;
+        max-width: fit-content;
+        height: min-content;
+        padding: 2rem;
+        margin-left: 8rem;
+        margin-bottom: 2rem;
+
+      }
