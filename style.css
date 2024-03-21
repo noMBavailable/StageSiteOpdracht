@@ -149,6 +149,13 @@ grid-column: 1/1;
   color:black;
 }
 
+.desk_bg{
+  background-image: url(images/deskImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height:200px;
+}
 
 .cntr_projects{
   
