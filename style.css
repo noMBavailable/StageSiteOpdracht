@@ -416,3 +416,57 @@ INTRODUCTION
         background-color: rgb(164, 196, 21);
         padding:8rem;
       }
+
+
+
+
+
+
+      .bg_testing{
+        background-image: url(images/mathias-reding-P0YeIVOyvSI-unsplash.jpg);
+        
+        height: 30.7rem;
+        background-size: contain; /*contain is an option */
+        background-repeat:repeat;
+        
+      }
+
+      .bg_testing2{
+        background-image: url(images/DeskImagecropped.png);
+        
+        height: 12rem;
+        background-size: contain;
+        background-repeat:round; /*change picture or fix*/
+       
+        
+      }
+
+      .bg_person-testing{
+        background-image: url(images/stockphoto8..jpg);
+        background-size: contain;
+        height: 12rem;
+        
+      }
+
+
+      .imgtestingground{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+      }
+
+      #layer1
+      {
+        z-index: 40;
+      }
+      #layer2
+      {
+      z-index: 20;
+      margin-top: 60rem;
+      }
+
+      #layer3
+      {
+      z-index: 500;
+      margin-top: 25rem;
+      }
