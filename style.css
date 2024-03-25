@@ -422,31 +422,7 @@ INTRODUCTION
 
 
 
-      .bg_testing{
-        background-image: url(images/mathias-reding-P0YeIVOyvSI-unsplash.jpg);
-        
-        height: 30.7rem;
-        background-size: contain; /*contain is an option */
-        background-repeat:repeat;
-        
-      }
-
-      .bg_testing2{
-        background-image: url(images/DeskImagecropped.png);
-        
-        height: 12rem;
-        background-size: contain;
-        background-repeat:round; /*change picture or fix*/
-       
-        
-      }
-
-      .bg_person-testing{
-        background-image: url(images/stockphoto8..jpg);
-        background-size: contain;
-        height: 12rem;
-        
-      }
+     
 
 
       .imgtestingground{
@@ -455,18 +431,25 @@ INTRODUCTION
         left: 0px;
       }
 
-      #layer1
+      #layer1 /*redbg */
       {
         z-index: 40;
+        width: 47.2rem;
+        margin-left: 18rem;
       }
-      #layer2
+      #layer2 /*deskimg*/
       {
-      z-index: 20;
-      margin-top: 60rem;
+      z-index: 51;
+      margin-top: 31rem;
+      margin-left: 14rem;
+      height: 12rem;
       }
 
-      #layer3
+      #layer3 /*person*/
       {
-      z-index: 500;
-      margin-top: 25rem;
+      z-index: 50;
+      height: 30rem;
+      width: 25rem;
+      margin-top: 3.1rem;
+      margin-left: 28rem;
       }
