@@ -404,9 +404,15 @@ INTRODUCTION
         width: 10.25rem;
         height: 13.75rem;
         border: none;
+        padding: 2rem;
         
-        background-color: rgb(255, 255, 255); /* background of image is grey, why needed to be set to white, maybe thats just standard button color?*/
         
         
 
+      }
+
+      .buttonbg:hover:not(.active) {
+        
+        background-color: rgb(164, 196, 21);
+        padding:8rem;
       }
