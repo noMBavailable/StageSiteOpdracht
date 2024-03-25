@@ -395,10 +395,11 @@ INTRODUCTION
 
       }
 
-      .container{
-        height: 100%;
-        background-size: cover;
+      .buttonbg{
+        
+        padding: 10rem;
+        background-image: url(images/stockphoto12.jpg);
         background-position: center;
-        transition: background-image 0.5s ease;
-        margin-top: 6rem;
+        
+
       }
