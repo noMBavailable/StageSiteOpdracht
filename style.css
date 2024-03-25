@@ -397,9 +397,16 @@ INTRODUCTION
 
       .buttonbg{
         
-        padding: 10rem;
-        background-image: url(images/stockphoto12.jpg);
+        
+        background-image: url(images/notebook-nobg.png);
         background-position: center;
+        background-repeat: no-repeat;
+        width: 10.25rem;
+        height: 13.75rem;
+        border: none;
+        
+        background-color: rgb(255, 255, 255); /* background of image is grey, why needed to be set to white, maybe thats just standard button color?*/
+        
         
 
       }
