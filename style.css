@@ -437,7 +437,7 @@ INTRODUCTION
         width: 47.2rem;
         margin-left: 18rem;
       }
-      #layer2 /*deskimg*/
+      #layer2 /*desk img*/
       {
       z-index: 51;
       margin-top: 31rem;
@@ -452,4 +452,40 @@ INTRODUCTION
       width: 25rem;
       margin-top: 3.1rem;
       margin-left: 28rem;
+      }
+
+      #layer4 /*notebook 1*/
+      {
+        z-index: 60;
+        height: 9rem;
+        margin-top: 32rem;
+        margin-left: 18rem;
+
+      }
+
+      #layer5 /*notebook 2*/
+      {
+        z-index: 60;
+        height: 9rem;
+        margin-top: 32rem;
+        margin-left: 31rem;
+
+      }
+
+      #layer6 /*notebook 3*/
+      {
+        z-index: 60;
+        height: 9rem;
+        margin-top: 32rem;
+        margin-left: 45.5rem;
+
+      }
+
+      #layer7 /*notebook 4*/
+      {
+        z-index: 60;
+        height: 9rem;
+        margin-top: 32rem;
+        margin-left: 58.5rem;
+
       }
