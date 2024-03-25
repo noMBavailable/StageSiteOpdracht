@@ -11,21 +11,23 @@
 </head>
 <body>
     
-    <ul>
-        <li><a href="startPage.html" alt="home">home</a></li>
-        <li><a href="Projects.html" alt="projects">Projects</a></li>          
-        <li><a href="contact.html" alt="contact">contact</a></li>
-        <li><a href="generalinfo.html" alt="contact">general info</a></li>
-    </ul>
+    
+
+    <img height="800px" id="bannerImage" src="images/deskImage.png" /><br />
+    <button onclick="changeImage('images/stockphoto12.jpg')">Image 1</button>
+    <button onclick="changeImage('images/stockphoto8..jpg')">Image 2</button>
+    <button onclick="changeImage('images/stockphoto12.jpg')">Image 3</button>
+    <button onclick="changeImage('images/stockphoto8..jpg')">Image 4</button>
+    
+    <script>
+        function changeImage(fileName) {
+            let img = document.querySelector("#bannerImage");
+            img.setAttribute("src", fileName);
+        }
+    </script>
+
 
     
-    <div class="cntr_bg" alt="front page">
-
-        <div class="cntr_gbb">
-            <img class="img_marc" src="images/stockphoto8..jpg" alt="John Richards, Owner"></img>
-            
-            
-        </div>
 
         <div class="cntr_dialog">
             
@@ -71,7 +73,7 @@
     
     
 
-
+    
 
 </body>
 </html>

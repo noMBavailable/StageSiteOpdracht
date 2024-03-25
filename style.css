@@ -394,3 +394,11 @@ INTRODUCTION
         margin-bottom: 2rem;
 
       }
+
+      .container{
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: background-image 0.5s ease;
+        margin-top: 6rem;
+      }
