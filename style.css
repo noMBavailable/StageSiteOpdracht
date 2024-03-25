@@ -489,3 +489,11 @@ INTRODUCTION
         margin-left: 58.5rem;
 
       }
+
+      #bannerImage /*tv*/
+      {
+        z-index: 70;
+        margin-left: 50rem;
+        margin-top: 7rem;
+        border: black 5px solid;
+      }

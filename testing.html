@@ -18,6 +18,14 @@
     <img class="imgtestingground" id="layer5" src="images/notebook-nobg.png"/>
     <img class="imgtestingground" id="layer6" src="images/notebook-nobg.png"/>
     <img class="imgtestingground" id="layer7" src="images/notebook-nobg.png"/>
+    <img class="imgtestingground" height="300px" width="300px" id="bannerImage" src="images/deskImage.png" /><br />
+
+    <script>
+        function changeImage(fileName) {
+            let img = document.querySelector("#bannerImage");
+            img.setAttribute("src", fileName);
+        }
+    </script>
 
     
 </body>
