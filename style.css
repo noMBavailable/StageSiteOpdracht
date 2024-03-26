@@ -395,10 +395,10 @@ INTRODUCTION
 
       }
 
-      .buttonbg{
+      /*.buttonbg{
         
         
-        background-image: url(images/notebook-nobg.png);
+        
         background-position: center;
         background-repeat: no-repeat;
         width: 10.25rem;
@@ -409,13 +409,9 @@ INTRODUCTION
         
         
 
-      }
+      }*/
 
-      .buttonbg:hover:not(.active) {
-        
-        background-color: rgb(164, 196, 21);
-        padding:8rem;
-      }
+      
 
 
 
@@ -429,6 +425,20 @@ INTRODUCTION
         position:absolute;
         top: 0px;
         left: 0px;
+      }
+
+      .notebooksbutton{
+        position: absolute;
+        background-color: black;
+      }
+
+      .imgnotebooks{
+        height: inherit;
+        width: inherit;
+        
+        
+        
+
       }
 
       #layer1 /*redbg */
@@ -456,38 +466,64 @@ INTRODUCTION
 
       #layer4 /*notebook 1*/
       {
+        display: grid;
+        align-content: center;
+        justify-content: center;
         z-index: 60;
-        height: 9rem;
+        height: 9.1rem;
+        width: 7rem;
         margin-top: 32rem;
-        margin-left: 18rem;
+        margin-left: 19rem;
+        background-color: transparent;
+        border: none;
+        
+        
 
       }
 
       #layer5 /*notebook 2*/
       {
+        display: grid;
+        align-content: center;
+        justify-content: center;
         z-index: 60;
-        height: 9rem;
+        height: 9.1rem;
+        width: 7rem;
         margin-top: 32rem;
-        margin-left: 31rem;
+        margin-left: 32rem;
+        background-color: transparent;
+        border: none;
 
       }
 
       #layer6 /*notebook 3*/
       {
+        display: grid;
+        align-content: center;
+        justify-content: center;
         z-index: 60;
-        height: 9rem;
+        height: 9.1rem;
+        width: 7rem;
         margin-top: 32rem;
-        margin-left: 45.5rem;
+        margin-left: 44rem;
+        background-color: transparent;
+        border: none;
 
       }
 
       #layer7 /*notebook 4*/
       {
+        display: grid;
+        align-content: center;
+        justify-content: center;
         z-index: 60;
-        height: 9rem;
+        height: 9.1rem;
+        width: 7rem;
         margin-top: 32rem;
-        margin-left: 58.5rem;
-
+        margin-left: 57rem;
+        background-color: transparent;
+        border: none;
+       
       }
 
       #bannerImage /*tv*/
