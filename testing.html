@@ -19,6 +19,15 @@
     <img class="imgtestingground" id="layer2" src="images/DeskImagecropped.png"/>
     <img class="imgtestingground" id="layer3" src="images/stockphoto8..jpg"/>
 
+    <img class="imgtestingground" height="320px" width="450px" id="bannerImage" src="images/deskImage.png" /><br />
+    <img class="imgtestingground" src="images/notebook-rotated.png" id="layer8">
+    <script>
+        function changeImage(fileName) {
+            let img = document.querySelector("#bannerImage");
+            img.setAttribute("src", fileName);
+        }
+    </script>
+
     <button  class="notebooksbutton" onclick="changeImage('images/stockphoto12.jpg')" id="layer4">
         <img  class="imgnotebooks" src="images/notebook-nobg.png"/>
     </button>
@@ -35,14 +44,7 @@
     
     
     
-    <img class="imgtestingground" height="300px" width="300px" id="bannerImage" src="images/deskImage.png" /><br />
-
-    <script>
-        function changeImage(fileName) {
-            let img = document.querySelector("#bannerImage");
-            img.setAttribute("src", fileName);
-        }
-    </script>
+    
 
     
 </body>

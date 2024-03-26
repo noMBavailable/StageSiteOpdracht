@@ -472,7 +472,7 @@ INTRODUCTION
         z-index: 60;
         height: 9.1rem;
         width: 7rem;
-        margin-top: 32rem;
+        margin-top: 31rem;
         margin-left: 19rem;
         background-color: transparent;
         border: none;
@@ -489,7 +489,7 @@ INTRODUCTION
         z-index: 60;
         height: 9.1rem;
         width: 7rem;
-        margin-top: 32rem;
+        margin-top: 31rem;
         margin-left: 32rem;
         background-color: transparent;
         border: none;
@@ -504,7 +504,7 @@ INTRODUCTION
         z-index: 60;
         height: 9.1rem;
         width: 7rem;
-        margin-top: 32rem;
+        margin-top: 31rem;
         margin-left: 44rem;
         background-color: transparent;
         border: none;
@@ -519,17 +519,26 @@ INTRODUCTION
         z-index: 60;
         height: 9.1rem;
         width: 7rem;
-        margin-top: 32rem;
+        margin-top: 31rem;
         margin-left: 57rem;
         background-color: transparent;
         border: none;
        
       }
 
+      #layer8 /*notebook open*/
+      {
+        z-index: 60;
+        
+        margin-top: 8rem;
+        margin-left: 22rem;
+      }
+
       #bannerImage /*tv*/
       {
-        z-index: 70;
-        margin-left: 50rem;
+        z-index: 40;
+        margin-left: 35rem;
         margin-top: 7rem;
         border: black 5px solid;
       }
+
