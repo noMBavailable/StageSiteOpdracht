@@ -446,9 +446,24 @@ INTRODUCTION
         height: inherit;
         width: inherit;
         
-        
-        
+      }
 
+      .notebookopen-text{
+        position: absolute;
+        z-index: 80;
+        margin-left: 23rem;
+        margin-top: 4rem;
+        
+      }
+
+
+      .titlefont{
+        font-size: 18px;
+
+      }
+      .parafont{
+        font-size: 10px;
+        
       }
 
       #layer1 /*redbg */
@@ -553,3 +568,52 @@ INTRODUCTION
         border: black 5px solid;
       }
 
+
+
+
+
+
+      /*FONTS*/
+
+      .inknut-antiqua-light {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .inknut-antiqua-regular {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .inknut-antiqua-medium {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .inknut-antiqua-semibold {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .inknut-antiqua-bold {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .inknut-antiqua-extrabold {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .inknut-antiqua-black {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
