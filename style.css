@@ -617,3 +617,21 @@ INTRODUCTION
         font-style: normal;
       }
       
+
+
+
+      
+      .slider-container {
+        position: relative;
+      }
+      
+      .buttons {
+        position: absolute;
+        top: 250px;
+        
+      }
+      
+      .buttons button {
+        padding: 10px 20px;
+        margin: 0 10px;
+      }
