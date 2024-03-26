@@ -9,7 +9,7 @@ function prevImage() {
   } else {
     currentIndex--;
   }
-  document.getElementById('slider-image').src = images[currentIndex];
+  document.getElementById('bannerImage').src = images[currentIndex];
 }
 
 function nextImage() {
@@ -18,5 +18,5 @@ function nextImage() {
   } else {
     currentIndex++;
   }
-  document.getElementById('slider-image').src = images[currentIndex];
+  document.getElementById('bannerImage').src = images[currentIndex];
 }

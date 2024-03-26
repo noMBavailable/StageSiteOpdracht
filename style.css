@@ -560,6 +560,14 @@ INTRODUCTION
         width: 14rem;
       }
 
+      #slider-Image /*tv*/
+      {
+        z-index: 40;
+        margin-left: 32rem;
+        margin-top: 5rem;
+        border: black 5px solid;
+      }
+
       #bannerImage /*tv*/
       {
         z-index: 40;
@@ -620,14 +628,16 @@ INTRODUCTION
 
 
 
-      
+
       .slider-container {
         position: relative;
       }
       
       .buttons {
         position: absolute;
-        top: 250px;
+        top: 435px;
+        right: 680px;
+        z-index: 90;
         
       }
       
