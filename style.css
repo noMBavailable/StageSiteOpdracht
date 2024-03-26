@@ -432,6 +432,16 @@ INTRODUCTION
         background-color: black;
       }
 
+      .notebooksbutton:hover:not(.active) {
+      
+      box-shadow:   15px 10px 10px  greenyellow;
+      }
+
+      .notebooksbutton:hover:active {
+        box-shadow:   15px 10px 10px  rgb(8, 65, 150);
+      }
+
+
       .imgnotebooks{
         height: inherit;
         width: inherit;
@@ -528,17 +538,18 @@ INTRODUCTION
 
       #layer8 /*notebook open*/
       {
-        z-index: 60;
+        z-index: 40;
         
-        margin-top: 8rem;
-        margin-left: 22rem;
+        margin-top: 6rem;
+        margin-left: 20rem;
+        width: 14rem;
       }
 
       #bannerImage /*tv*/
       {
         z-index: 40;
-        margin-left: 35rem;
-        margin-top: 7rem;
+        margin-left: 32rem;
+        margin-top: 5rem;
         border: black 5px solid;
       }
 
