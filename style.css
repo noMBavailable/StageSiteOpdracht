@@ -446,6 +446,7 @@ INTRODUCTION
         height: inherit;
         width: inherit;
         
+        
       }
 
       .notebookopen-text{
@@ -647,6 +648,6 @@ INTRODUCTION
       }
 
       /* Add this CSS for the glow effect */
-.notebooksbutton.glow .imgnotebooks {
+  .notebooksbutton.glow .imgnotebooks {
   box-shadow: 1px 1px 12px 13px rgb(0, 255, 255); /* Adjust color and size as needed */
 }

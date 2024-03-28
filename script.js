@@ -2,7 +2,7 @@
 
 
 const imageArray = [
-['images/FTCMenu.PNG', 'images/stockphoto12.jpg', 'images/FTCMenu.PNG', 'images/stockphoto12.jpg'],
+['images/FTCMenu.PNG', 'images/Capture.PNG', 'images/Capasdasdasdture.PNG', 'images/Capturasdse.PNG'],
 ['images/stockphoto12.jpg', 'images/notebook-rotated.png', 'images/stockphoto12.jpg', 'images/notebook-rotated.png'],
 ['images/notebook-rotated.png', 'images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg', 'images/notebook-rotated.png', 'images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg'],
 ['images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg', 'images/FTCMenu.PNG', 'images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg', 'images/FTCMenu.PNG']
