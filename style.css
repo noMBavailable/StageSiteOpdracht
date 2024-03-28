@@ -561,6 +561,14 @@ INTRODUCTION
         width: 14rem;
       }
 
+      #layer10 /* name project notebook*/
+      {
+        position: absolute;
+      font-size: 10px;
+      left: 27px;
+      top: 12px;
+      }
+
       #slider-Image /*tv*/
       {
         z-index: 40;
@@ -643,8 +651,10 @@ INTRODUCTION
       }
       
       .buttons button {
-        padding: 10px 20px;
+        padding: 0px 0px;
         margin: 0 10px;
+        border: none;
+        background-color: transparent;
       }
 
       /* Add this CSS for the glow effect */
