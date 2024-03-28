@@ -1,44 +1,44 @@
-//make multi const images for the different projects
 
-let currentIndexImg = 0;
 
-function prevImage() {
-  if (currentIndexImg === 0) {
-    currentIndexImg = imageArray.length - 1;
-  } else {
-    currentIndexImg--;
-  }
-  document.getElementById('bannerImage').src = imageArray[currentIndexImg];
-}
 
-function nextImage() {
-  if (currentIndexImg === imageArray.length - 1) {
-    currentIndexImg = 0;
-  } else {
-    currentIndexImg++;
-  }
-  document.getElementById('bannerImage').src = imageArray[currentIndexImg];
-}
+const imageArray = [
+['images/FTCMenu.PNG', 'images/stockphoto12.jpg', 'images/FTCMenu.PNG', 'images/stockphoto12.jpg'],
+['images/stockphoto12.jpg', 'images/notebook-rotated.png', 'images/stockphoto12.jpg', 'images/notebook-rotated.png'],
+['images/notebook-rotated.png', 'images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg', 'images/notebook-rotated.png', 'images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg'],
+['images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg', 'images/FTCMenu.PNG', 'images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg', 'images/FTCMenu.PNG']
+];
 
-const currentImgIndex = [];
-const imageArray = [currentImgIndex[currentIndexImg]];
 
-imageArray[0] = 'images/FTCMenu.PNG', 'images/stockphoto12.jpg', 'images/FTCMenu.PNG', 'images/stockphoto12.jpg';
-imageArray[1] = 'images/stockphoto12.jpg', 'images/notebook-rotated.png', 'images/stockphoto12.jpg', 'images/notebook-rotated.png';
-imageArray[2] = 'images/notebook-rotated.png', 'images/mathias-reding-P0YeIVOyvSI-unsplash.jpg', 'images/notebook-rotated.png', 'images/mathias-reding-P0YeIVOyvSI-unsplash.jpg';
-imageArray[3] = 'images/mathias-reding-P0YeIVOyvSI-unsplash.jpg', 'images/FTCMenu.PNG', 'images/mathias-reding-P0YeIVOyvSI-unsplash.jpg', 'images/FTCMenu.PNG';
 
-let currentProjectIndex = 0;
-function changeProject(currentProjectIndex) {
- imageArray[currentProjectIndex];
-document.getElementById('bannerImage').src = imageArray[currentIndexImg];
-console.log("currentProjectIndex: " + currentProjectIndex); 
-console.log("currentImageIndex: " + imageArray[currentProjectIndex]); 
-
-  
+function changeProject(projectIndex) {
+ currentProjectIndex = projectIndex;
+ currentImgIndex = 0;
+document.getElementById('bannerImage').src = imageArray[currentProjectIndex][currentImgIndex];
 }
 
 function changeImage(fileName) {
   let img = document.querySelector("#bannerImage");
   img.setAttribute("src", fileName);
 }
+
+
+function prevImage() {
+  if (currentImgIndex === 0) {
+    currentImgIndex = imageArray[currentProjectIndex].length - 1;
+  } else {
+    currentImgIndex--;
+  }
+  document.getElementById('bannerImage').src = imageArray[currentProjectIndex][currentImgIndex];
+}
+
+function nextImage() {
+  if (currentImgIndex === imageArray[currentProjectIndex].length - 1) {
+    currentImgIndex = 0;
+  } else {
+    currentImgIndex++;
+  }
+  document.getElementById('bannerImage').src = imageArray[currentProjectIndex][currentImgIndex];
+}
+
+
+
