@@ -434,12 +434,12 @@ INTRODUCTION
 
       .notebooksbutton:hover:not(.active) {
       
-      box-shadow:   15px 10px 10px  greenyellow;
+      box-shadow:   1px 1px 12px 13px   greenyellow;
+      
       }
 
-      .notebooksbutton:hover:active {
-        box-shadow:   15px 10px 10px  rgb(8, 65, 150);
-      }
+      
+      
 
 
       .imgnotebooks{
@@ -635,7 +635,7 @@ INTRODUCTION
       
       .buttons {
         position: absolute;
-        top: 430px;
+        top: 410px;
         right: 635px;
         z-index: 90;
         
@@ -645,3 +645,8 @@ INTRODUCTION
         padding: 10px 20px;
         margin: 0 10px;
       }
+
+      /* Add this CSS for the glow effect */
+.notebooksbutton.glow .imgnotebooks {
+  box-shadow: 1px 1px 12px 13px rgb(0, 255, 255); /* Adjust color and size as needed */
+}

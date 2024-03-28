@@ -11,10 +11,29 @@ const imageArray = [
 
 
 function changeProject(projectIndex) {
- currentProjectIndex = projectIndex;
- currentImgIndex = 0;
-document.getElementById('bannerImage').src = imageArray[currentProjectIndex][currentImgIndex];
+    currentProjectIndex = projectIndex;
+    currentImgIndex = 0;
+    document.getElementById('bannerImage').src = imageArray[currentProjectIndex][currentImgIndex];
+    
+    // Remove glow class from all notebook buttons
+    const notebookButtons = document.querySelectorAll('.notebooksbutton');
+    notebookButtons.forEach(button => button.classList.remove('glow'));
+    
+    // Add glow class to the clicked notebook button
+    const clickedButton = document.getElementById('layer' + (currentProjectIndex + 4));
+    clickedButton.classList.add('glow');
 }
+
+/*function changeProject(projectIndex) {
+  currentProjectIndex = projectIndex;
+  currentImgIndex = 0;
+  document.getElementById('bannerImage').src = imageArray[currentProjectIndex][currentImgIndex];
+ 
+ 
+ }
+*/
+
+
 
 function changeImage(fileName) {
   let img = document.querySelector("#bannerImage");
