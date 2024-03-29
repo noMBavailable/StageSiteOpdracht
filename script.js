@@ -22,6 +22,8 @@ function changeProject(projectIndex) {
     // Add glow class to the clicked notebook button
     const clickedButton = document.getElementById('layer' + (currentProjectIndex + 4));
     clickedButton.classList.add('glow');
+
+    changeText(projectIndex)
 }
 
 /*function changeProject(projectIndex) {
@@ -61,12 +63,12 @@ function nextImage() {
 
 
 
-var texts = ["Text 1", "Text 2", "Text 3"]; // Array containing different texts
-var textIndex = 0; // Index to keep track of current text
+var texts = ["For The Cause ", "Text 2", "Text 3","Text 4"]; // Array containing different texts
 
-function changeText() {
+
+function changeText(currentText) {
+  var textIndex = currentText;
   var textElement = document.getElementById("layer_text");
-  textIndex = (textIndex + 1) % texts.length; // Increment index and loop back to 0 when it reaches the end
+  textIndex = textIndex % texts.length; // Increment index and loop back to 0 when it reaches the end
   textElement.textContent = texts[textIndex]; // Set new text
 }
-

@@ -55,17 +55,6 @@ li a:hover:not(.active) {
 /*Navbar
 */
 
-.img_marc{
-  width: 500px;
-  height: 395px;
-  
-  margin-right: 2rem;
-  padding-top: 0rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  font-size: 1rem;
-  text-align: center;
-}
 /* 
 INTRODUCTION
 */
@@ -419,37 +408,29 @@ INTRODUCTION
 
 
      
+      /* projects / testing script  */
 
-
-      .imgtestingground{
+      .img_bg{
         position:absolute;
         top: 0px;
         left: 0px;
       }
 
-      .notebooksbutton{
+      .projects_button{
         position: absolute;
         background-color: black;
       }
 
-      .notebooksbutton:hover:not(.active) {
-      
+      .projects_button:hover:not(.active) {
       box-shadow:   1px 1px 12px 13px   greenyellow;
-      
       }
 
-      
-      
-
-
-      .imgnotebooks{
+      .img_projects{
         height: inherit;
         width: inherit;
-        
-        
       }
 
-      .notebookopen-text{
+      .notebook_open_cnt{
         position: absolute;
         z-index: 80;
         margin-left: 23rem;
@@ -488,6 +469,22 @@ INTRODUCTION
       width: 25rem;
       margin-top: 3.1rem;
       margin-left: 28rem;
+      }
+
+      #layer_projects
+      {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        z-index: 60;
+        height: 9.1rem;
+        width: 7rem;
+        background-color: transparent;
+        border: none;
+      }
+
+      .projects_cntr{
+        display: grid;
       }
 
       #layer4 /*notebook 1*/
@@ -554,11 +551,17 @@ INTRODUCTION
 
       #layer8 /*notebook open*/
       {
-        z-index: 40;
+        /*z-index: 40;
         
         margin-top: 6rem;
         margin-left: 20rem;
+        width: 14rem;*/
+
+        z-index: -1;
+        margin-top: -1rem;
+        margin-left: -5rem;
         width: 14rem;
+
       }
 
       #layer10 /* name project notebook*/
@@ -574,20 +577,7 @@ INTRODUCTION
         z-index: 100;
       }
 
-      #layer-JbwlNb
-      {
-        z-index: 30;
-      }
-
-      #layer-Website
-      {
-        z-index: 29;
-      }
-
-      #layer-Tbd
-      {
-        z-index: 28;
-      }
+      
 
       #slider-Image /*tv*/
       {
@@ -611,64 +601,11 @@ INTRODUCTION
         z-index: 110;;
       }
 
-
-
-      /*FONTS*/
-
-      .inknut-antiqua-light {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-      
-      .inknut-antiqua-regular {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .inknut-antiqua-medium {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 500;
-        font-style: normal;
-      }
-      
-      .inknut-antiqua-semibold {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 600;
-        font-style: normal;
-      }
-      
-      .inknut-antiqua-bold {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .inknut-antiqua-extrabold {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 800;
-        font-style: normal;
-      }
-      
-      .inknut-antiqua-black {
-        font-family: "Inknut Antiqua", serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-      
-
-
-
-
-      .slider-container {
-        position: relative;
-      }
       
       .buttons {
         position: absolute;
         top: 410px;
-        right: 635px;
+        right: 1135px;
         z-index: 90;
         
       }
@@ -681,6 +618,54 @@ INTRODUCTION
       }
 
       /* Add this CSS for the glow effect */
-  .notebooksbutton.glow .imgnotebooks {
+  .Projects_button.glow .img_projects {
   box-shadow: 1px 1px 12px 13px rgb(0, 255, 255); /* Adjust color and size as needed */
 }
+
+/* projects / testing script  */
+
+/*FONTS*/
+
+.inknut-antiqua-light {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-medium {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inknut-antiqua-bold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inknut-antiqua-black {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* FONTS */

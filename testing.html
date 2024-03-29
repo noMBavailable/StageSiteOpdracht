@@ -16,14 +16,11 @@
 <body>
     
     
-    
-    
-    
-    <img class="imgtestingground" id="layer1" src="images/mathias-reding-P0YeIVOyvSI-unsplash.jpg"/>
-    <img class="imgtestingground" id="layer2" src="images/DeskImagecropped.png"/>
-    <img class="imgtestingground" id="layer3" src="images/stockphoto8..jpg"/>
+    <img class="img_bg" id="layer1" src="images/mathias-reding-P0YeIVOyvSI-unsplash.jpg"/>
+    <img class="img_bg" id="layer2" src="images/DeskImagecropped.png"/>
+    <img class="img_bg" id="layer3" src="images/stockphoto8..jpg"/>
 
-    <img class="imgtestingground" height="320px" width="500px" id="bannerImage" src="images/deskImage.png" alt="Banner Image"/><br />
+    <img class="img_bg" height="320px" width="500px" id="bannerImage" src="images/deskImage.png" alt="Banner Image"/><br />
     <div class="buttons">
         <button onclick="prevImage()">
         <img style="transform: rotate(180deg);" src="images/fast-forward.png" height="70px" width="100px"  alt="">
@@ -34,41 +31,29 @@
         <script src="script.js"></script> <!-- script -->    
     </div>
       
-    <div class="notebookopen-text" layer="layer-FtcNb">
-        <img class="imgtestingground" src="images/notebook-rotated.png" id="layer8">
+    <div class="notebook_open_cnt">
+        <img class="img_bg" src="images/notebook-rotated.png" id="layer8">
         <div id="layer_text" >hello</div>
     </div>
 
-    
-    
-   
-
-    <!-- make an inactive class for the notebook
-         make it switch text
-
-         lookup how examples
-
-         make it available behind?
-         
-    -->
-
-    <button  class="notebooksbutton" onclick="changeProject(0) " id="layer4">
-        <img  class="imgnotebooks" src="images/notebook-nobg.png"/>
-        <div id="layer10">Project: <br> For The Cause</div>
-    </button>
-    <button  class="notebooksbutton" onclick="changeProject(1)"  id="layer5">
-        <img  class="imgnotebooks" src="images/notebook-nobg.png"/>
-        <div id="layer10">Project: <br> Just Bowling</div>
-    </button>
-    <button  class="notebooksbutton" onclick="changeProject(2)" id="layer6">
-        <img  class="imgnotebooks" src="images/notebook-nobg.png"/>
-        <div id="layer10">Project: <br> Website</div>
-    </button>
-    <button  class="notebooksbutton" onclick="changeProject(3)" id="layer7">
-        <img class="imgnotebooks"  src="images/notebook-nobg.png"/>
-        <div id="layer10">Project: <br> To Be Determined</div>
-    </button>
-    
+    <div class="projects_cntr">
+        <button  class="projects_button" onclick="changeProject(0)"  id="layer4">
+            <img  class="img_projects" src="images/notebook-nobg.png"/>
+            <div id="layer10">Project: <br> For The Cause</div>
+        </button>
+        <button  class="projects_button" onclick="changeProject(1)"  onclick="changeText(1)" id="layer5">
+            <img  class="img_projects" src="images/notebook-nobg.png"/>
+            <div id="layer10">Project: <br> Just Bowling</div>
+        </button>
+        <button  class="projects_button" onclick="changeProject(2)" onclick="changeText(2)" id="layer6">
+            <img  class="img_projects" src="images/notebook-nobg.png"/>
+            <div id="layer10">Project: <br> Website</div>
+        </button>
+        <button  class="projects_button" onclick="changeProject(3)" onclick="changeText(3)" id="layer7">
+            <img class="img_projects"  src="images/notebook-nobg.png"/>
+            <div id="layer10">Project: <br> To Be Determined</div>
+        </button>
+    </div>    
     
     
     
