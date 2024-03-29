@@ -460,15 +460,19 @@ INTRODUCTION
       #layer1 /*redbg */
       {
         z-index: 40;
-        width: 47.2rem;
-        margin-left: 18rem;
+      width: -moz-available;
+      
+      
+      height: 59.7rem;
+
       }
       #layer2 /*desk img*/
       {
-      z-index: 51;
-      margin-top: 31rem;
-      margin-left: 14rem;
-      height: 12rem;
+        z-index: 51;
+        margin-top: 47.7rem;
+        
+        height: 12rem;
+        width: -moz-available;
       }
 
       #layer3 /*person*/
@@ -494,6 +498,8 @@ INTRODUCTION
 
       .projects_cntr{
         display: grid;
+        margin-top: 14.5rem;
+        margin-left: 17rem;
       }
 
       #layer4 /*notebook 1*/
