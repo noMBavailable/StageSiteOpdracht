@@ -569,6 +569,26 @@ INTRODUCTION
       top: 12px;
       }
 
+      #layer-FtcNb
+      {
+        z-index: 100;
+      }
+
+      #layer-JbwlNb
+      {
+        z-index: 30;
+      }
+
+      #layer-Website
+      {
+        z-index: 29;
+      }
+
+      #layer-Tbd
+      {
+        z-index: 28;
+      }
+
       #slider-Image /*tv*/
       {
         z-index: 40;
