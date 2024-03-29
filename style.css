@@ -606,7 +606,10 @@ INTRODUCTION
       }
 
 
-
+      #layer_text
+      {
+        z-index: 110;;
+      }
 
 
 

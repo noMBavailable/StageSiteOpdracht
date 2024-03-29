@@ -61,3 +61,12 @@ function nextImage() {
 
 
 
+var texts = ["Text 1", "Text 2", "Text 3"]; // Array containing different texts
+var textIndex = 0; // Index to keep track of current text
+
+function changeText() {
+  var textElement = document.getElementById("layer_text");
+  textIndex = (textIndex + 1) % texts.length; // Increment index and loop back to 0 when it reaches the end
+  textElement.textContent = texts[textIndex]; // Set new text
+}
+
