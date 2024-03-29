@@ -63,12 +63,43 @@ function nextImage() {
 
 
 
-var texts = ["For The Cause ", "Text 2", "Text 3","Text 4"]; // Array containing different texts
-
+var texts = [
+  "For The Cause\n2d Platformer\n3 Levels\nMade By: Marc Baudet", // /n can be used to break lines or new line
+  "Just Bowling\nAnother line\nAnd another line\nMade By: Marc Baudet",
+  "Website\nAdditional information\n additional\nMade By: Marc Baudet",
+  "tbd\nAdditional information\n additional\nMade By: Marc Baudet"
+]; // Array containing different texts
 
 function changeText(currentText) {
   var textIndex = currentText;
   var textElement = document.getElementById("layer_text");
-  textIndex = textIndex % texts.length; // Increment index and loop back to 0 when it reaches the end
+  var text = texts[textIndex];
+  
+  // Split the text into multiple lines
+  var lines = text.split('\n');
+  
+  // Create HTML content with padding between lines
+  var htmlContent = '';
+  lines.forEach((line, index) => {
+    if (index === 0) {
+      // First line (title) with larger font size and padding
+      htmlContent += `<div class="titlefont" style="padding-bottom: 15px">${line}</div>`;
+    } else {
+      // Other lines with regular font size and padding
+      htmlContent += `<div class="parafont" style="padding-top: 20px">${line}</div>`;
+    }
+  });
+  
+  // Set HTML content to the text element
+  textElement.innerHTML = htmlContent;
+}
+
+
+
+/*function changeText(currentText) {
+  var textIndex = currentText;
+  var textElement = document.getElementById("layer_text");
+  
   textElement.textContent = texts[textIndex]; // Set new text
 }
+*/
