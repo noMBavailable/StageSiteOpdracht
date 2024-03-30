@@ -460,10 +460,14 @@ INTRODUCTION
       #layer1 /*redbg */
       {
         z-index: 40;
-      width: -moz-available;
+        max-width: 100%;
+        height: 60rem;
+        background-size:auto;
+
+        
       
       
-      height: 59.7rem;
+      
 
       }
       #layer2 /*desk img*/
